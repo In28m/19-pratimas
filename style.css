@@ -1,0 +1,54 @@
+body {
+    margin: 80px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    text-align: center; 
+    padding: 8px; 
+  }
+  
+ 
+  tr:nth-child(even) {
+    background-color: blue; 
+    color: beige;
+  }
+  
+  
+  thead {
+    background-color: blueviolet; 
+    font-weight: bold;
+    color: beige;
+  }
+
+
+input[type="search"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    
+  }
+  
+  button#searchButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0fd615;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#searchButton:hover {
+    background-color: goldenrod;
+  }
+  
+  
+
